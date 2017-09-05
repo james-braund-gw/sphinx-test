@@ -1,0 +1,3 @@
+#!/bin/sh
+make -C $(git rev-parse --show-toplevel) html
+git add $(git rev-parse --show-toplevel)/build
